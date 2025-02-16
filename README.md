@@ -1,5 +1,4 @@
-# Royal Bank of Canada Churn Pattern Dynamics: 
-# Understanding Customer Attrition
+# Royal Bank of Canada Churn Pattern Dynamics: Understanding Customer Attrition
 
 ## Description 
 
