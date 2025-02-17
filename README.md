@@ -9,11 +9,11 @@ Churn prevention is not a one-size-fits-all approach. It requires a deep underst
 ### Approach
 1. Understanding the data and planning accordingly. (More on this refer BRD)
 
-2. Data cleaning/wrangling: Cleaning and preparing the data: Like any other data this data was in the raw format, various steps have been taken to clean this dataset (Using Excel). Some of them involve using statistical descriptive values like median to replace blanks in the 'Estimated Salary' attribute, removal of blanks, mode value to replace 'Tenure' attribute, removal of duplicate rows etc.
+2. Data cleaning/wrangling: Cleaning and preparing the data: Like any other data this data was in the raw format, various steps have been taken to clean this dataset (Tech stack used: Excel). Some of them involve using statistical descriptive values like median to replace blanks in the 'Estimated Salary' attribute, removal of blanks, mode value to replace 'Tenure' attribute, removal of duplicate rows etc.
 
-3. Insights: Analysing the data to extract meaningful insights: Here churn analysis is done with EDA approach including Univariate, bivariate, segmented variate analysis on exit customers and much more....
+3. Insights: Analysing the data to extract meaningful insights: Here churn analysis is done with EDA approach including Univariate, bivariate analysis on exit customers.
 
-4. Visualizing key factors for clear and concise communication: The .pibx file includes a dashboard along with a multi-page analysis of trends and patterns, highlighting key takeaways, which helps RBC understand their customers better and track events wrt churn.
+4. Visualizing key factors for clear and concise communication: The 'RCB_Churn_Analysis.pibx' file includes a dashboard along with a multi-page analysis of trends and patterns, highlighting key takeaways, which helps RBC understand their customers better and track events wrt churn.
 
 5. Drawing conclusions with key highlights of data patterns and trends, complemented by actionable insights and a comprehensive report summary on the final page.
 
@@ -23,12 +23,12 @@ Churn prevention is not a one-size-fits-all approach. It requires a deep underst
 - Step 1 : Load data into Power BI Desktop from multiple sources, dataset is in a .csv and .xlsx format files.
 - Step 2 : Open power query editor & in view tab under Data preview section, check "column distribution", "column quality" & "column profile" options.
 - Step 3 : Also since by default, profile will be opened only for 1000 rows so you need to select "column profiling based on entire dataset".
-- Step 4 : It was observed that in none of the columns errors & empty values were present since i managed to clean the dataset in the Excel prior to importing.
+- Step 4 : It was observed that in none of the columns errors & empty values were present since I managed to clean the dataset in the Excel prior to importing.
 - Step 5 : In the report view, a simple tri-coloured custom theme was selected.
 - Step 6 : A master calender table was constructed for errorless and smooth operations of DAX functions/Measures
 - step 7 : Later, started with Power Pivot and Modelling establishing the connections by managing the relationships (More on this in the .pbix file 'model view' tab)
 - step 8: Multiple DAX expression were written under a newly established table 'My_Measures' for easy access and to extract meaningful insights including Total customers, Active members, Inactive members, Credit card holders, Non-Credit card holders, retained customers, exit customers, churn % etc...
-- Step 8 : Key Visual filters (Slicers) were added for important filter fields namly "Year", "Financial quarter", "Location". This basically helps the user to play along with the data as per the reruirement within the Homepage/Dashboard.
+- Step 8 : Key Visual filters (Slicers) were added for important filter fields namly "Year", "Financial quarter", "Location". This basically helps the user to play along with the data as per the requirements within the Homepage/Dashboard.
 
 Snap of the Homepage/Dashboard (Power BI DESKTOP) is pasted below for reference:
 
