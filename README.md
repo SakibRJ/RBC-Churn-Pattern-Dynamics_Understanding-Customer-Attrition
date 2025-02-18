@@ -60,6 +60,24 @@ Snap of the line graph Visual for 'Exit customer vs Prev Month Exit Customers'
 - Step 11 : A series of visualizations and pages were created to effectively illustrate key data trends and insights. Additionally, for some of these visuals, the report includes a section highlighting the 'key takeaways', ensuring a clear understanding of the findings. For a more detailed and in-depth analysis, please refer to the accompanying .pbix file, which contains additional insights and interactive elements."
 
 - Step 12 : Finally, the last page of the report provides a comprehensive summary, encapsulating the key findings and detailed patterns identified throughout the analysis. This section highlights the most significant insights related to customer churn, offering a clear overview of the underlying factors. In addition to summarizing the findings, the page also presents some of actionable recommendations and strategic suggestions aimed at reducing churn within RBC’s customer base, helping to enhance customer retention and long-term business growth.
+- 
+
+### Insights in brief
+- The annual churn rate averages 20.37%, peaking at 22.35% in 2017, but has decreased from 2017 to 2019.
+
+- Female customers have a higher churn rate than males across all bank locations. Target female customers with retention strategies such as tailored offers or services to reduce their higher churn.
+
+- France has the highest customer base (5k), followed by Germany and Spain (2.5k each); however, Germany has the highest churn rate. Focus on increasing retention in Germany despite the high churn rate by offering localized promotions and support.
+
+- Older clients, especially those with longer tenure (7+ years), tend to have lower churn rates. Introduce loyalty programs for long-tenure customers to further reduce churn and reward their commitment.
+
+- Churn is higher among customers using one product, but the data imbalance makes it hard to confirm trends conclusively. Encourage customers to use more products by offering product bundles or incentives to reduce churn.
+
+- The 40-50 age group has the highest churn, with fewer products leading to higher exit rates, although data imbalance limits certainty.
+
+- Customers over 45 are less likely to exit, possibly due to established financial routines and risk aversion. Offer stability and personalized financial advice to customers over 45 to strengthen their relationship with the bank.
+
+- Most churn comes from inactive customers, highlighting the need for engagement strategies to retain them. Engage inactive customers through re-engagement campaigns to prevent further churn among this group.
        
 
 #### A single-page homepage/dashboard report is created using Power BI Desktop, providing a high-level overview of key metrics and trends. This dashboard serves as the starting point for the analysis, offering a clear snapshot of the most important data points. Following this, multiple pages of detailed analysis were developed, each focusing on specific aspects of the churn data ensuring easy interpretation of the findings.
