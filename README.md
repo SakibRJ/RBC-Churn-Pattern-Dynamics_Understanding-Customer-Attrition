@@ -60,7 +60,6 @@ Snap of the line graph Visual for 'Exit customer vs Prev Month Exit Customers'
 - Step 11 : A series of visualizations and pages were created to effectively illustrate key data trends and insights. Additionally, for some of these visuals, the report includes a section highlighting the 'key takeaways', ensuring a clear understanding of the findings. For a more detailed and in-depth analysis, please refer to the accompanying .pbix file, which contains additional insights and interactive elements."
 
 - Step 12 : Finally, the last page of the report provides a comprehensive summary, encapsulating the key findings and detailed patterns identified throughout the analysis. This section highlights the most significant insights related to customer churn, offering a clear overview of the underlying factors. In addition to summarizing the findings, the page also presents some of actionable recommendations and strategic suggestions aimed at reducing churn within RBC’s customer base, helping to enhance customer retention and long-term business growth.
-- 
 
 ### Insights in brief
 - The annual churn rate averages 20.37%, peaking at 22.35% in 2017, but has decreased from 2017 to 2019.
